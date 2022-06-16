@@ -9,6 +9,10 @@
     width: 80%;
     
 }
+.container_stretch{
+    margin: auto;
+    width: 100%;
+}
 .container .main_header{
     display: flex;
     justify-content: space-between;
@@ -61,16 +65,19 @@
 #hero_section .text_section {
     width: 60%;
 }
+
 #hero_section .image_container {
     width: 40%;
     margin-left: 20px;
     
 }
+
 #hero_section{
     padding: 40px 0;
 }
+
 #hero_section .image_container{
-    background: url(./img/hero1.jpg);
+    background: url(../img/hero1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,6 +103,7 @@
 
     
 }
+
 .orange_btn{
     background-color: #ff6433;
     font-size: 20px;
@@ -107,6 +115,19 @@
     border-radius: 10px;
     border: #ff6433;
 }
+.black_btn{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+
+}
+
 .light_grey{
     color: #939191;
 }
@@ -128,34 +149,42 @@
     background-color: #e2e6e9;
     
 } 
+
 #hero_section2 .left_section , .right_section{
     width: 45%;
 }
+
 #hero_section2 .left_section .image_box{
     width: 10%;
 }
+
 #hero_section2 .left_section .text_box{
     width: 60%;
 }
+
 #hero_section2 .left_section h2, #hero_section2 .left_section li{
     margin-bottom: 20px;
 }
+
 #hero_section2 .left_section img{
     width: 50%;
     
 }
+
 #hero_section2 .left_section p, h5{
     /* margin-left: 10px; */
     font-size: 0.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
 #hero_section2 .left_section ul, a{
     list-style: none;
     text-decoration: none;
     color: black;
 
 }
+
 .arrow-1 {
     width:100px;
     height:30px;
@@ -163,6 +192,7 @@
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
 .arrow-1:before {
     content: "";
     background: currentColor;
@@ -170,16 +200,20 @@
     clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
     animation: a1 1.5s infinite linear;
 }
+
 @keyframes a1 {
     90%,100%{flex-grow: 1}
 }
+
 .right_section_form{
     width: 60%;
 }
+
 .right_section_form h3{
     size: 2rem;
     padding: 10px;
 }
+
 .right_section_form .input_box input{
     width: 100%;
     margin-bottom: 4px;
@@ -187,6 +221,318 @@
     border: none;
    
 }
+
 .right_section_form input[type="text"]{
     padding: 20px 20px;
+}
+
+#process_section{
+    padding: 80px 0px;
+}
+
+#process_section .left_section{
+    width: 60%;
+}
+
+#process_section .left_section h2{
+    font-size: 55px;
+    font-weight: 700;
+    width: 80%;
+    margin-top: 40px;
+}
+
+#process_section .left_section p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    color: #1e1b1b;
+    opacity: 0.6;
+
+}
+
+#process_section .right_section{
+    width: 40%;
+}
+#process_section .right_section .image_section{
+    width: 15%;
+
+}
+#process_section .right_section .text_section{
+    width: 85%;
+}
+#process_section .image_section img{
+    width: 70%;
+}
+#process_section .line_box img{
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 20px;
+   
+    
+} 
+
+#process_section .right_section .text_section p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #1e1b1b;
+    opacity: 0.6;
+
+}
+
+#process_section .right_section .text_section h2{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 5px;
+
+}
+
+.justify_content{
+    justify-content: space-between;
+}
+#process_section .right_section li{
+    margin-bottom: 10px;
+}
+   
+#offer_section{
+    padding: 80px 0;
+    background: #e2e6e9;
+    min-height: 100vh;
+}
+
+#offer_section h2 ,#offer_section h5{
+    text-align: center;
+}
+
+#offer_section .offer_box .image img{
+    width: 60px;
+}
+
+#offer_section .offers .offer_box{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 24%;
+    margin-bottom: 15px;
+    padding:30px;
+}
+
+#offer_section .offers{
+   flex-wrap: wrap;
+   padding: 0px 10px;
+   padding-top: 10px;
+   
+}
+
+#offer_section .offers .offer_box:hover{
+    background: #ff6433;
+    cursor:pointer;
+    transition: 5ms;
+    color: #e2e6e9;
+}
+
+#offer_section .learn_about{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#get_in_touch{
+    width: 100%;
+    height: 400px;
+    
+}
+.container2{
+    display: flex;
+    height: 400px;
+}
+
+#get_in_touch .container2 .first_image{
+    background-image: url(../img/cardoor.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 19%;
+    height: 400px;
+}
+#get_in_touch .container2 .middle{
+    background: #ff6433;
+    width: 38%;
+    height: 400px;
+    padding: 30px 40px;
+    padding-top: 40px;
+    
+
+}
+#get_in_touch .container2 .second_image{
+    background-image: url(../img/open_booth.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 400px;
+}
+#get_in_touch .middle h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #e2e6e9;
+    font-size: 33px;
+}
+.black_btn a{
+    color: white;
+}
+#get_in_touch .btn_container{
+    margin-left: 50px;
+}
+
+#previous_job{
+    background: #e2e6e9;
+    height: 30vh;
+    
+}
+
+#previous_job .job{
+    display: flex;
+}
+#previous_job ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 28px;
+}
+#previous_job li{
+    padding: 10px 50px ;
+    margin: 10px 10px;
+}
+#previous_job .job h1{
+    color: rgba(128, 0, 128, 0.692);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#previous_job .job p{
+    margin-top: 10px;
+    color: black;
+}
+
+#brands{
+    height: 50vh;
+}
+#brands .brand_heading{
+    text-align: center;
+}
+#brands .brand_heading h1{
+    font-size: 40px;
+}
+
+/* mobile view */
+
+@media (max-width: 426px){
+    .main_header .right_section{
+       flex-direction: column;
+       align-items: flex-start;
+       
+    } 
+    .container .main_header{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px;
+        
+    }
+    .main_header .right_section{
+        display: none;
+    }
+    .main_header .right_section ul{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .main_header ul 
+    .main_header .right_section li{
+        padding: 0 ;
+    }
+    .main_header .road_assistance{
+        padding:10px 0px;
+    }
+
+    .flex_sm_screen{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #hero_section .text_section ,#hero_section .image_container{
+        width: 100%;
+
+    }
+    #hero_section .text_section h1{
+        font-size: 35px;
+    }   
+    
+    #hero_section .text_section{
+        order: 1;
+    }
+    #hero_section .image_containe{
+        order: 2;
+    }
+    #hero_section2 .left_section{
+        width: 100%;
+    }
+    #hero_section2 .left_section h2{
+        font-size: 2rem;
+    }
+    #hero_section2 .left_section .image_box{
+        width: 20%;
+    }
+    #hero_section2 .left_section .text_box{
+        width: 80%;
+    }
+    #hero_section2 .right_section_form{
+        width: 100%;
+    }
+    /* #process_section .container{
+        width: 100%;
+    } */
+    #process_section .left_section,#process_section .left_section p, #process_section .left_section h2{
+        width: 100%;
+    }
+    #process_section .left_section h2, #process_section    .right_section h2{
+        font-size: 1.5rem;
+    }
+
+    #process_section .right_section{
+        width: 100%;
+        margin-top: 40px;
+    }
+   
+    #process_section .right_section .image_section{
+        width: 20%;
+        margin-top: 10px;
+    }
+    #process_section .right_section .image_section img{
+        width: 50%;
+    }
+    #process_section .right_section .text_section{
+        width: 80%;
+    } 
+    #process_section .right_section .text_section h2{
+        padding: auto;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #offer_section .offers .offer_box{
+        width: 48%;
+    }
+
+    #offer_section .learn_about a{
+        font-size: 1rem;
+    }
+    
+
+
 }
